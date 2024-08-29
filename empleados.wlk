@@ -13,7 +13,7 @@ object galvan {
     return saldo.min(0).abs()
     // return if (saldo < 0) saldo else 0
   }
-
+//
   method gastar(cuanto) {
     saldo -= cuanto
   }
